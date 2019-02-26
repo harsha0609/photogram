@@ -21,7 +21,4 @@
 							- if user_signed_in?
 								=link_to "edit", edit_pic_path,class:"btn btn-info"
 								=link_to "delete", pic_path, method: :delete, data: {confirm: "are you sure??"},class: "btn btn-danger"
-
-
-= link_to "back", root_path
-
+					= link_to "back", root_path,class:"btn btn-warning"
